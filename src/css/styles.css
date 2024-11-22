@@ -112,9 +112,9 @@ main p { width: 900px; max-width: 98%; }
     margin-top: 15px;
 }
 
-.listItem h1 { font-size: 22px; }
-.listItem h2 { font-size: 18px; font-weight: 100; }
-.listItem p { width: 100%; }
+.listItem h1, .form-container h1 { font-size: 22px; }
+.listItem h2, .form-container h2 { font-size: 18px; font-weight: 100; }
+.listItem p, .form-container p { width: 100%; }
 
 .prioritization { 
     font-size: 24px; 

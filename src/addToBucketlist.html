@@ -33,12 +33,36 @@
         <div class="main-container">
             <h1>Add to bucketlist</h1>
             <div class="divider"></div>
+
             <div id="form-container">
-
+                <form>
+                    <div>
+                        <label for="name"></label><br>
+                        <input type="text" name="name" id="name" placeholder="Name of experience">
+                        <div id="nameError" class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="description"></label><br><br>
+                        <textarea name="description" id="description" placeholder="Describe the experience" rows="4" cols="35"></textarea>
+                        <div id="descriptionError" class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="priority"></label><br><br>
+                        <select name="priority" id="priority">
+                            <option value="">Choose priority</option>
+                        </select>
+                        <div id="priorityError" class="error-message"></div>
+                    </div>
+                    <div class="btn-container">
+                        <button id="confirm-btn" class="material-symbols-outlined" type="button">add</button>
+                        <button id="cancel-btn" class="material-symbols-outlined" type="button">cancel</button>
+                    </div>
+                </form>
             </div>
-        </div>
-    </main>
 
+        </div>
+
+    </main>
     <footer>
         <div>
             <img src="images/logo_jeja.svg" alt="logo for creater">
