@@ -12,10 +12,10 @@ body {
     display: flex;
     align-items: center;
     /*background-image: linear-gradient(to top right, #f1fdf8, #f4fcf9);*/
-    background-color: #f4fcf9;
+    background-color: #ffffff/*#f4fcf9*/;
     color: #36363F;
     min-height: 100vh;
-    box-shadow: inset 0px 4px 10px rgba(150, 177, 149, 0.5);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.185);
 }
 
 h1 { font-family: 'Instrument Sans'; margin-bottom: 10px; }
